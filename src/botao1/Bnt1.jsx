@@ -6,7 +6,8 @@ console.log ("Clicou no botão");
 function Bnt1(props) {
     return (
         <div>
-            <button onClick={() => console.log("Teste")}> Clique aqui</button>
+            <button id ='menubtn'>
+                {props.nome}</button>
         </div>
     )
 }

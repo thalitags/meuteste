@@ -1,0 +1,11 @@
+#categorias{
+    background-color: rgb(110, 77, 192);
+    min-width: 65px;
+    width: 20%;
+    height: 30px;
+    margin: 8px 10px;
+    border-radius: 20px 0px;
+    text-align: center;
+    padding: 5px;
+       
+    };

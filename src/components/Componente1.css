@@ -1,0 +1,11 @@
+#assistbtn{
+  border-radius:50px;
+  border: solid 2px rgb(196, 127, 38);
+  background-color: rgb(37, 143, 69);
+  min-width: 65px;
+  width: 20%;
+  height: 30px;
+  margin: 8px 10px;
+  text-align: center;
+  padding: 5px;
+}

@@ -1,11 +1,15 @@
-import React from "react";
+import React from 'react';
 import "./Imagens.css";
-import tgs from "./tgs.jpg";
+import Tgs from './Tgs.jpg';
 
-function Imagens() {
+
+function Imagens(props) {
     return (
         <div>
-            <img src="tgs.jpg" />
+            <h4>{props.texto}</h4>
+            <img scr ={props.local} alt = ''/>
+            
+            <img id='imgprincipal'src={Tgs} alt= 'Tgs.jpg'/>
         </div>
     )
 }

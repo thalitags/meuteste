@@ -1,15 +1,14 @@
 import React from "react";
 import "./Componente1.css";
 
-
 function Componente1(props) {
     return (
-        <div className="Componente1">
-            <button>Home</button>
-            <button> Favoritos</button>
-            <button> Filmes </button>
-            <p>Primeiro componente</p>
-        </div>
+        <div>
+           <button id='assistbtn'>
+                {props.icone}
+                {props.nome}
+            </button>
+        </div >
     )
 }
 export default Componente1;
