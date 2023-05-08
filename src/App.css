@@ -1,0 +1,25 @@
+body{
+    background-color: rgba(23, 24, 49, 0.945);
+    display: flex;
+    justify-content: center;
+}
+
+.centro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.App{
+    background-color: rgb(58, 94, 92);
+    width: 800px;
+    min-height: 100vh;
+    padding-bottom: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white
+}
+
+.esquerda{
+    display:flex;
+    justify-content: end;
+}

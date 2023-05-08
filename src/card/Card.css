@@ -1,0 +1,35 @@
+#boxmaior{
+width: 90%;
+min-width: 400px;
+height:250px;
+background-color: rgba(5, 9, 48, 0.616);
+box-sizing: border-box;
+};
+
+#boxperfilfilme{
+height: 160px;
+display: flex;
+flex-direction:row;
+justify-content:center;
+};
+
+#boximagem{
+width: 150px;
+height:150px;
+
+};
+
+#boxdescricaofilme{
+width: 60%;
+justify-content: left;
+padding: 0px 20px;
+};
+
+h2{
+font-size: 20px;
+};
+
+#boxbotao{
+    padding: 30px;
+    float:right;
+};
